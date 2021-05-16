@@ -1,0 +1,60 @@
+#sources{
+    position: absolute;
+    width: 529px;
+    height: 46px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 116px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.475em;
+    text-decoration-line: line-through;
+    text-decoration-thickness: 3px;
+    color: #FFFFFF;
+}
+.lista{
+    position: absolute;
+    width: 80%;
+    height: 486px;
+    left: 10%;
+    top: 220px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: no rmal;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.soundc ul li{
+    font-size: 18px;
+}
+.soundc a:hover{
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    transition: all .2s;
+}
+ ul li{
+    margin: 15px;
+}
+.copyr{
+    position: relative; 
+    width: 100%;
+    height: 200px;
+    top: 1300px;
+    font-family: ubuntu;
+}
+.tex{
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50px;
+}

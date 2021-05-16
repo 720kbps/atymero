@@ -1,0 +1,178 @@
+.first{
+    width: 100%;
+    height: 540px ;
+    position: relative;
+    top: 140px;
+    display: flex;
+
+}
+#members{
+    width: 383px;
+    height: 40px;
+    top: 120px;
+    left: 50%;
+    position: relative;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.475em;
+    text-decoration-line: line-through;
+    color: white;
+    text-decoration-thickness: 3px;
+}
+.werrz{
+    position: absolute;
+    width: 510px;
+    height: 74px;
+    left: 11%;
+    top: 26px;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 84px;
+    color: #A80EFF;
+}
+.werrz-text{
+    position: absolute;
+    width: 510px;
+    height: 80px;
+    left: 11%;
+    top: 136px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.werrz-text::before{
+    content: "";
+    position: absolute;
+    width: 489px;
+    height: 3px;
+    background: #FFFFFF;
+    top: 100px;
+}
+.genres1{
+    position: absolute;
+    width: 489px;
+    height: 75px;
+    left: 11%;
+    top: 251px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.verde{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 64%;
+    top: 26px;
+    transition: top 0.4s ease 0s, width 0.4s ease 0s, height 0.4s ease 0s, left 0.4s ease 0s, box-shadow 0.4s ease 0s;
+}
+.sc{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 66%;
+    top: 356px;
+    transition: top 0.3s ease 0s;
+}
+.sc:hover{
+    top: 351px;
+    transition: top 0.3s ease 0s;
+}
+.insta{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 74%;
+    top: 356px;
+    color: white;
+    transition: top 0.3s ease 0s;
+}
+.insta:hover{
+    top: 351px;
+    transition: top 0.3s ease 0s;
+}
+.discord{   
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 82%;
+    top: 356px;
+    transition: top 0.3s ease 0s;
+}
+.discord:hover{
+    top: 351px;
+    transition: top 0.3s ease 0s;
+}
+.verde:hover{
+    left: 62%;
+    width: 350px;
+    height: 64%;
+    top: -36px;
+    box-shadow: 0px 20px 22px 6px rgb(22, 22, 22);
+    transition: top 0.4s ease 0s, width 0.4s ease 0s, height 0.4s ease 0s, left 0.4s ease 0s, box-shadow 0.4s ease 0s;
+}
+.second{
+    width: 100%;    
+    height: 540px;
+    position: relative;
+    top: 140px;
+}
+.caramen-text{
+    position: absolute;
+    width: 510px;
+    height: 80px;
+    left: 11%;
+    top: 136px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.caramen-text::before{
+    content: "";
+    position: absolute;
+    width: 489px;
+    height: 3px;
+    background: #FFFFFF;
+    top: 132px;
+}
+#caramen-genres{
+    top:280px
+}
+
+#kylobit::before{
+    top: 130px;
+}
+#kylobit-role{
+    top: 280px;
+}
+.copyright{
+    position: relative;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    top: 150px;
+    text-align: center;
+}
+body{
+    height: 2450px;
+}
